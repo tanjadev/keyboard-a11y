@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Accessible Menu Example</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="login-link">Login</a>
+        <button class="hamburger-button" onclick="openMenu()" aria-label="Navigation Menu">🍔</button>
+    </header>
+    <nav id="navmenu">
+        <button onclick="closeMenu()" aria-label="Close Menu" class="close-button">[close]</button>
+        <a href="#">Projects</a>
+        <a href="#" tabindex=3>Plants</a>
+        <a href="#">Another Page</a>
+    </nav>
+    <main>
+        <button class="shop-button" onclick=shopNow()>Shop now!</button>
+        <p>Awesome content goes here..</p>
+    </main>
+</body>
+
+</html>
