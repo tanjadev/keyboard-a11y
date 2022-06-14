@@ -1,5 +1,7 @@
 # keyboard-a11y
 
+CodePen Link: https://bit.ly/3NRSK6a 
+
 This repo includes the following exercises for fixing accessibility issues around keyboard support:
 
 - Exercise 1: Order with structure, not styling
